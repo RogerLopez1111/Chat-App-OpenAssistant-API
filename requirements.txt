@@ -3,6 +3,7 @@ hugchat
 streamlit-chat
 streamlit-extras
 langchain
+langchain-community
 python-dotenv==1.0.0
 streamlit==1.32.2
 streamlit-camera-input-live==0.2.0
