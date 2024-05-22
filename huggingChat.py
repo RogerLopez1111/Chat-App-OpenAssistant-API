@@ -1,11 +1,12 @@
-import streamlit as st
 from streamlit_chat import message
 from streamlit_extras.colored_header import colored_header
 from streamlit_extras.add_vertical_space import add_vertical_space
-from langchain import PromptTemplate, HuggingFaceHub, LLMChain
+from langchain_core.prompts import PromptTemplate
+from langchain_community.llms import HuggingFaceHub
+from langchain import LLMChain
 from dotenv import load_dotenv
 
-# load the Environment Variables. 
+# Load the environment variables.
 load_dotenv()
 st.set_page_config(page_title="OpenAssistant Powered Chat App")
 
